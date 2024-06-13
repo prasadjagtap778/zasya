@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Zasya Online</title>
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="shortcut icon" href="images/fav.png" />
+    <!--[if lt IE 9]>
+      <script src="script/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/home-animation.css" />
+    <link href="style/animation.css" rel="stylesheet" />
+
+    <style>
+      .whatsapp {
+        position: fixed;
+        bottom: 50px;
+        right: 80px;
+        z-index: 1000;
+      }
+      .whatsapp-popup {
+        display: inline-block;
+        background-color: #000080; /* WhatsApp color */
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        transform-origin: left center;
+        transform: scaleX(1);
+        animation: rollInOut 4s infinite alternate ease-in-out;
+      }
+
+      @keyframes rollInOut {
+        0%,
+        100% {
+          transform: scaleX(1);
+        }
+        50% {
+          transform: scaleX(0);
+        }
+      }
+
+      .email-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+      }
+      .email-link:hover .email-icon,
+      .email-link:hover .email-text,
+      .email-link:hover .email-address {
+        color: #007bff; /* Change to the color you want on hover */
+      }
+    </style>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+    <div class="whatsapp">
+      <a href="https://wa.me/message/HCU2XDXIC5MPM1" target="_blank">
+        <img src="images/whatsapplogo.png" width="50px" alt="" />
+        <span class="whatsapp-popup">Chat with us</span>
+      </a>
+    </div>
+    <!-- <div class="scroll"><img src="images/scroll.png"></div> -->
+    <div class="header">
+      <div class="tbl-t-1">
+        <div class="tbl-r-1">
+          <div class="tbl-c-1">
+            <a href="index.html">
+              <img src="images/logo.png" alt="Logo" />
+            </a>
+          </div>
+
+          <div class="tbl-c-1">
+            <div class="mobile-menu"><img src="images/menu.png" /></div>
+            <div class="nav-1">
+              <ul>
+                <li><a href="consulting.html">Consulting Services</a></li>
+                <li><a href="mybantu.html">MyBantu</a></li>
+                
+                  <!-- <a href="resourcing.html">Resourcing</a> -->
+                
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="partner.html"> Partner with Us</a></li>
+                <li><a href="careers.html">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="panel home" data-section-name="home">
+      <div class="Modern-Slider">
+        <div class="item">
+          <div class="img-fill">
+            <img src="images/banner-3.jpg" alt="" />
+            <div class="info">
+              <div>
+                <h5></h5>
+                <h3>Elevate Performance and Productivity:</h3>
+                <h5>Partner with Future-Ready Resources at Zasya</h5>
+                <a href="consulting.html" class="btn-1a">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item -->
+        <div class="item">
+          <div class="img-fill">
+            <img src="images/banner-2.jpg" alt="" />
+            <div class="info">
+              <div>
+                <h5></h5>
+                <h3>Empowering Your Vision:</h3>
+                <h5>Innovative Consulting for Modern Success</h5>
+                <a href="skill-enhancement.html" class="btn-1a">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- // Item -->
+
+        <!-- Item -->
+        <div class="item">
+          <div class="img-fill">
+            <img src="images/banner-1.jpg" alt="" />
+            <div class="info">
+              <div>
+                <h5></h5>
+                <h3>
+                  Revolutionize Your Sales, Services & Operations with Zasya's
+                  Cloud, AI & Automation Solutions
+                </h3>
+                <h5></h5>
+                <a href="resourcing.html" class="btn-1a">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // Item -->
+      </div>
+    </section>
+
+    <section class="panel slide2 img-bg-1" data-section-name="slide2">
+      <div class="wrapper">
+        <div class="home-sec-1">
+          <div class="sec-1-main">
+            <div class="sec-1-col-1">
+              <!--zoom-in-down-->
+              <div
+                class="sec-1-bg"
+                data-aos="fade-right"
+                data-aos-duration="2500"
+              ></div>
+              <div
+                class="sec-1-img"
+                data-aos="fade-up-left"
+                data-aos-duration="3000"
+              >
+                <img src="images/Consult.jpg" />
+              </div>
+            </div>
+            <div class="sec-1-col-2">
+              <h2>Consulting</h2>
+              <p data-aos="zoom-in" data-aos-duration="3000">
+                At Zasya, we believe in the wisdom of learning from both our own
+                mistakes and those of others. With over two decades of
+                experience in the IT sector, we've gained invaluable insights
+                into what truly resonates with your customers.
+              </p>
+              <h4>Discover how we can assist you with:</h4>
+              <div class="bullet-1">
+                <ul>
+                  <li>
+                    Elevating Customer Experience with contact center solutions
+                  </li>
+                  <li>Streamlining Testing and API Development</li>
+                  <li>Optimizing Video Conferencing and Video Surveillance</li>
+                </ul>
+              </div>
+              <a
+                href="consulting.html"
+                class="btn-1a"
+                style="background-color: #0ec7ff; color: white"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel slide3 img-bg-1" data-section-name="slide3">
+      <div class="wrapper">
+        <div class="home-sec-1">
+          <div class="sec-1-main">
+            <div class="sec-1-col-2">
+              <h2>Digital Transformation<br /></h2>
+
+              <p data-aos="zoom-in" data-aos-duration="3000">
+                Experience the essence of digital transformation at Zasya, where
+                we understand that it's not just a project, but a fundamental
+                business discipline and company philosophy. With over two
+                decades of expertise in the IT sector, we've honed our
+                understanding of what deeply connects with your customers.
+              </p>
+              <h4>Explore how we can assist you with:</h4>
+              <div class="bullet-1">
+                <ul>
+                  <li>Cloud and AI-Based Solutions</li>
+                  <li>Automation</li>
+                  <li>Data Science</li>
+                  <li>Custom Software Development</li>
+                </ul>
+              </div>
+              <a
+                href="consulting.html"
+                class="btn-1a"
+                style="background-color: #0ec7ff; color: white"
+                >Learn More</a
+              >
+            </div>
+            <div class="sec-1-col-1">
+              <!--zoom-in-down-->
+              <div
+                class="sec-1-bg"
+                data-aos="fade-right"
+                data-aos-duration="2500"
+              ></div>
+              <div
+                class="sec-1-img"
+                data-aos="fade-up-left"
+                data-aos-duration="3000"
+              >
+                <img src="images/digitaltransformation.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel slide2 img-bg-1" data-section-name="slide2">
+      <div class="wrapper">
+        <div class="home-sec-1">
+          <div class="sec-1-main">
+            <div class="sec-1-col-1">
+              <!--zoom-in-down-->
+              <div
+                class="sec-1-bg"
+                data-aos="fade-right"
+                data-aos-duration="2500"
+              ></div>
+              <div
+                class="sec-1-img"
+                data-aos="fade-up-left"
+                data-aos-duration="3000"
+              >
+                <img src="images/skill-img.png" />
+              </div>
+            </div>
+            <div class="sec-1-col-2">
+              <h2>MyBantu</h2>
+              <p data-aos="zoom-in" data-aos-duration="3000">
+                Revolutionize Your Communication with Zasya's AI-Powered Voice
+                Assistant
+              </p>
+              <p data-aos="zoom-in-right" data-aos-duration="3000">
+                Meet MyBantu, Zasya's cutting-edge AI-powered voice assistant,
+                crafted to transform your communication experience. In today's
+                fast-paced world, effective and efficient communication is
+                essential. MyBantu is your ultimate solution, designed to manage
+                your calls seamlessly and effortlessly.
+              </p>
+              <p data-aos="zoom-in-right" data-aos-duration="3000">
+                Imagine gliding through your day with a personalized voice
+                assistant tailored to your unique voice. It's your all-in-one
+                tool for smarter communication enabling you to supercharge your
+                productivity.
+              </p>
+              <h4>Discover how we can assist you with:</h4>
+              <div class="bullet-1">
+                <ul>
+                  <li>
+                    Elevating Customer Experience with contact center solutions
+                  </li>
+                  <li>Streamlining Testing and API Development</li>
+                  <li>Optimizing Video Conferencing and Video Surveillance</li>
+                </ul>
+              </div>
+              <a
+                href="consulting.html"
+                class="btn-1a"
+                style="background-color: #0ec7ff; color: white"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel slide3 img-bg-1" data-section-name="slide3">
+      <div class="wrapper">
+        <div class="home-sec-1">
+          <div class="sec-1-main">
+            <div class="sec-1-col-2">
+              <h2>Skill Enhancement<br /></h2>
+
+              <p data-aos="zoom-in" data-aos-duration="3000">
+                We understand that acquired skills are the culmination of
+                knowledge, passion, and experience. We're dedicated to fostering
+                the growth of businesses by igniting the embers of skill until
+                they blaze brightly.
+              </p>
+              <h4>Explore how we can assist you with:</h4>
+              <div class="bullet-1">
+                <ul>
+                  <li>Comprehensive 360-degree Skill Assessment</li>
+                  <li>Tailored Short-term and Long-term Upskilling Programs</li>
+                  <li>Mentorship from Esteemed Industry Leaders</li>
+                </ul>
+              </div>
+              <a
+                href="index.html"
+                class="btn-1a"
+                style="background-color: #0ec7ff; color: white"
+                >Learn More</a
+              >
+            </div>
+            <div class="sec-1-col-1">
+              <!--zoom-in-down-->
+              <div
+                class="sec-1-bg"
+                data-aos="fade-right"
+                data-aos-duration="2500"
+              ></div>
+              <div
+                class="sec-1-img"
+                data-aos="fade-up-left"
+                data-aos-duration="3000"
+              >
+                <img src="images/skillenhancement.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel slide5 img-bg-1" data-section-name="slide5">
+      <div class="wrapper">
+        <div class="home-sec-1">
+          <div class="wad-1">
+            <h2>What Sets Us Apart?</h2>
+            <p>
+              At Zasya, prioritizing customer delight is ingrained in our ethos.
+            </p>
+            <p>
+              With an impressive 95% first-time success rate, we ensure an
+              unrivaled customer experience. Bid farewell to endless marathon
+              calls, email exchanges, or tiresome follow-ups. Entrust Zasya to
+              propel your growth journey forward swiftly!
+            </p>
+            <div class="wad-1-f">
+              <div
+                class="wad-2-c"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000"
+              >
+                <img src="images/personalizedmentor.jpg" />
+                <h6>Personalized Mentorship</h6>
+              </div>
+              <div
+                class="wad-2-c"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1800"
+              >
+                <img src="images/consistent.jpg" />
+                <h6>Consistent Guidance & Resources</h6>
+              </div>
+              <div
+                class="wad-2-c"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="2400"
+              >
+                <img src="images/directaccess.jpg" />
+                <h6>Direct Access to Industry Experts</h6>
+              </div>
+              <div
+                class="wad-2-c"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="3000"
+              >
+                <img src="images/mentor.jpg" />
+                <h6>Individual Mentor & HR Support</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="panel slide2 img-bg-1 inside-1"
+      data-section-name="slide2"
+      style="height: 600px"
+    >
+      <div class="wrapper">
+        <div class="home-sec-1a">
+          <div class="wad-1">
+            <h2>Trusted by Leading Brands Worldwide</h2>
+
+            <div class="inner-wad-1-f">
+              <div
+                class="inner-wad-1-c aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000"
+              >
+                <img src="images/skillsets-1.jpg" />
+                <h6>Cisco Contact Center</h6>
+              </div>
+              <div
+                class="inner-wad-1-c aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1800"
+              >
+                <img src="images/skillsets-1.jpg" />
+                <h6>Cisco Network & Security</h6>
+              </div>
+              <div
+                class="inner-wad-1-c aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="2400"
+              >
+                <img src="images/skillsets-6.jpg" />
+                <h6>Salesforce Developers</h6>
+              </div>
+              <div
+                class="inner-wad-1-c aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="3000"
+              >
+                <img src="images/skillsets-2.jpg" />
+                <h6>Project Managers</h6>
+              </div>
+
+              <div class="inner-wad-1-c">
+                <img src="images/skillsets-3.jpg" />
+                <h6>Java & .Net Developers</h6>
+              </div>
+
+              <div class="inner-wad-1-c">
+                <img src="images/skillsets-4.jpg" />
+                <h6>Testers – Manual & Automated</h6>
+              </div>
+
+              <div class="inner-wad-1-c">
+                <img src="images/skillsets-5.jpg" />
+                <h6>React, Node JS & API</h6>
+              </div>
+
+              <div class="inner-wad-1-c">
+                <img src="images/skillsets-7.jpg" />
+                <h6>Oracle Financials</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="panel slide6 img-bg-1 one-1"
+      data-section-name="slide6"
+      ,
+      style="height: 1382px"
+    >
+      <div class="wrapper">
+        <div class="home-sec-1 home-sec-1-height">
+
+          <div class="getintouch">
+            <div class="tbl-gt-1">
+              <div class="tbl-gr-1">
+                <div class="tbl-gc-1">
+                  <h2>Get in Touch</h2>
+                  <div
+                    class="image-1 aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1800"
+                  >
+                    <img src="images/contactus.jpg" />
+                  </div>
+                  <div
+                    class="location-1"
+                    style="background-image: url(images/location-icon.png)"
+                  >
+                    Block A7, Flat# 10D, Olympia Grande, Next to Pallavaram Flyover, Chennai - 600043
+                  </div>
+                  <div
+                    class="location-2"
+                    style="background-image: url(images/phone-icon.png)"
+                  >
+                    <a1 href="tel:7674892792">+91 7674892792<b style="position: relative; top: -8px"></b></a1>
+                  </div>
+                  <div
+                    class="location-1"
+                    style="background-image: url(images/email-icon.png)"
+                  >
+                    <a href="mailto:info@zasya.online">info@zasya.online</a>
+                  </div>
+                </div>
+                <div class="tbl-gc-1">
+                  <form
+                    action="form.php"
+                    method="POST"
+                    name="abs2021"
+                    enctype="multipart/form-data"
+                    id="abs2021"
+                    onsubmit="return validateForm()"
+                  >
+                    <span style="color: red; font-size: 13px" id="err1"></span>
+                    <input
+                      type="text"
+                      placeholder="Name *"
+                      name="name"
+                      id="name"
+                      class="text-field-1"
+                      required
+                      style="color: #000000;"
+                    />
+                    <span style="color: red; font-size: 13px" id="err2"></span>
+                    <input
+                      type="email"
+                      placeholder="Email *"
+                      name="email_id"
+                      id="email_id"
+                      class="text-field-1"
+                      required
+                      style="color: #000000;"
+                    />
+                    <span style="color: red; font-size: 13px" id="err3"></span>
+                    <input
+                      type="text"
+                      placeholder="Phone *"
+                      name="contactnum"
+                      id="contactnum"
+                      class="text-field-1"
+                      required
+                      style="color: #000000;"
+                    />
+                    <span style="color: red; font-size: 13px" id="err4"></span>
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      name="subject"
+                      id="subject"
+                      class="text-field-1"
+                    />
+                    <textarea
+                      placeholder="Message"
+                      name="message"
+                      id="message"
+                      class="textarea-2"
+                    ></textarea>
+                    <div class="g-recaptcha" data-sitekey="6LcsQlUpAAAAAATqLJGqWuxUfnVbhhiEmPpuj18R"></div>
+                    <!--USE SECRET KEY FOR BACK END "6LcsQlUpAAAAAH21pFA-I7mVHbB6awSYR4-6l1ki" -->
+                    <input class="btn-2" type="hidden" value="SUBMIT" name="action" />
+                    <input class="btn-2" type="submit" value="Submit" name="submit" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <script>
+            document.getElementById("contactnum").addEventListener("input", function (e) {
+              var phone = e.target.value;
+              var phoneError = document.getElementById("err4");
+  
+              // Allow only digits
+              e.target.value = phone.replace(/\D/g, "");
+  
+              // Check if length is greater than 10
+              if (e.target.value.length > 10 || e.target.value.length < 10) {
+                phoneError.textContent = "";
+                e.target.value = e.target.value.slice(0, 10); // Truncate to 10 digits
+              } else if (e.target.value.length == 10) {
+                phoneError.textContent = "";
+              }
+            });
+  
+            function validateForm() {
+              var phone = document.getElementById("contactnum").value;
+              var phoneError = document.getElementById("err4");
+              var phonePattern = /^\d{10}$/;
+  
+              if (phonePattern.test(phone)) {
+                phoneError.textContent = "";
+              } else {
+                phoneError.textContent = "";
+                return false;
+              }
+  
+              // Check other fields
+              var name = document.getElementById("name").value;
+              var email = document.getElementById("email_id").value;
+  
+              if (!name) {
+                document.getElementById("err1").textContent = "Name is required.";
+                return false;
+              } else {
+                document.getElementById("err1").textContent = "";
+              }
+  
+              if (!email) {
+                document.getElementById("err2").textContent = "Email is required.";
+                return false;
+              } else {
+                document.getElementById("err2").textContent = "";
+              }
+  
+              return true;
+            }
+          </script>
+
+        </div>
+      </div>
+      <br />
+    </section>
+
+
+  
+
+  
+    <section
+      id="custom-background-section"
+      class="panel slide7 img-bg-1 one-1"
+      data-section-name="slide7"
+     >
+      <div class="wrapper">
+        <div class="home-sec-1 home-sec-1-height">
+          <section class="footer">
+            <div class="footer-row">
+              <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul class="links">
+                  <li><a href="consulting.html">Consulting Services</a></li>
+                  <li><a href="mybantu.html">MyBantu</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="partner.html">Partner with Us</a></li>
+                  <li><a href="careers.html">Careers</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <h4>Contact & Support</h4>
+                <ul class="links">
+                  <li>
+                    <a href="https://wa.me/7674892792" class="whatsapp-link">
+                      <i
+                        class="fab fa-whatsapp"
+                        style="
+                          margin-right: 8px;
+                          color: #000000;
+                          font-size: 18px;
+                        "
+                      ></i>
+                      WhatsApp
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:info@zasya.online"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                      "
+                      class="email-link"
+                    >
+                      <i
+                        class="fas fa-envelope"
+                        style="
+                          margin-right: 8px;
+                          color: #000000;
+                          font-size: 18px;
+                        "
+                        class="email-link"
+                      ></i>
+                      Email Us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+1234567890" class="phone-link">
+                      <i
+                        class="fas fa-phone-alt phone-icon"
+                        style="
+                          margin-right: 8px;
+                          color: #000000;
+                          font-size: 18px;
+                        "
+                      ></i>
+
+                      +917674892792
+                    </a>
+                    <p
+                      style="
+                        color: #ffff;
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                        margin-top: 40px;
+                      "
+                    >
+                      Connect With Us
+                    </p>
+                  </li>
+                  <div class="icons">
+                    <a href="https://www.facebook.com/zasyaonline" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  
+
+                  
+                    <!-- <i class="fa-brands fa-twitter"></i> -->
+                    <a href="https://www.linkedin.com/company/zasya/" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <h4>Our Policies</h4>
+                <ul class="links">
+                  <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                  <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+                  <li>
+                    <a href="cancellationrefundterminationpolicy.html">Cancellation Policy</a>
+                  </li>
+                  <li><a href="cancellationrefundterminationpolicy.html">Refund Policy</a></li>
+                  <li><a href="termsandconditions.html">Termination Policy</a></li>
+                  <li><a href="shippinganddelivery.html">Shipping & Delivery</a></li>
+                  <!-- <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Media Kit</a></li> -->
+                </ul>
+              </div>
+
+              <div class="footer-col" style="width: 183px">
+                <h4>Zasya</h4>
+                <a href="index.html" >
+                  <img
+                  src="images/logo.png"
+                  alt="Logo"
+                  style="max-width: 100%; height: auto; transition: transform 0.3s ease;"
+                  onmouseover="this.style.transform='scale(1.1)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                  />
+                  </a>
+                <div>
+                  <p
+                    style="
+                      color: #fff;
+                      font-size: 1.2rem;
+                      font-weight: 400;
+                      margin-top: 25px;
+                    "
+                  >
+                    Download Our App
+                  </p>
+                </div>
+                <form action="#">
+                  <a href="https://play.google.com/store/apps/details?id=com.zasyaonline.mybantu&hl=en&pli=1" target="_blank">
+                    <img
+                    src="images/image-3@2x.png"
+                    alt="Logo"
+                    style="max-width: 100%; height: auto; transition: transform 0.3s ease;"
+                    onmouseover="this.style.transform='scale(1.1)'"
+                    onmouseout="this.style.transform='scale(1)'"
+                    />
+                    </a>
+
+                  <a href="https://play.google.com/store/apps/details?id=com.zasyaonline.mybantu&hl=en&pli=1" target="_blank">
+                  <img
+                  src="images/image-2@2x.png"
+                  alt="Logo"
+                  style="max-width: 100%; height: auto; transition: transform 0.3s ease;"
+                  onmouseover="this.style.transform='scale(1.1)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                  />
+                  </a>
+
+                </form>
+                
+              </div>
+            </div>
+            <div>
+              <p
+                style="
+                  font-size: 13px;
+                  margin-top: -1px;
+                  text-align: center;
+                  color: #000000;
+                  background-color: #11cfe7;
+                "
+              >
+                Copyright © 2024 Zasya All Rights Reserved.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/main.js"></script>
+    <script src="slider-2/slick.js"></script>
+    <script src="js/animation.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".Modern-Slider").slick({
+          autoplay: true,
+          autoplaySpeed: 10000,
+          speed: 1200,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          pauseOnHover: false,
+          dots: true,
+          pauseOnDotsHover: false,
+          cssEase: "linear",
+          // fade:true,
+          draggable: false,
+          prevArrow: '<button class="PrevArrow"></button>',
+          nextArrow: '<button class="NextArrow"></button>',
+        });
+      });
+    </script>
+    <script>
+      AOS.init({
+        easing: "ease-out-back",
+        duration: 1000,
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".mobile-menu").click(function () {
+          $(".nav-1").slideToggle(500);
+        });
+        $("#abs2021").submit(function () {
+          var zasyaname = $("#name").val();
+          var email_id = $("#email_id").val();
+          var contactnum = $("#contactnum").val();
+          var subject = $("#subject").val();
+          function IsEmail(email_id) {
+            var regex =
+              /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (!regex.test(email_id)) {
+              return false;
+            } else {
+              return true;
+            }
+          }
+
+          if (zasyaname == "") {
+            $("#zasyaname").focus();
+            $("#err1").html("Please Enter your Name.");
+            return false;
+          } else {
+            $("#err1").html("");
+          }
+
+          if (email_id == "") {
+            $("#email_id").focus();
+            $("#err2").html("Please Enter your Email ID.");
+            return false;
+          }
+          if (IsEmail(email_id) == false) {
+            $("#email_id").focus();
+            $("#err2").html("Invalid email format.");
+            return false;
+          } else {
+            $("#err2").html("");
+          }
+
+          if (contactnum == "") {
+            $("#contactnum").focus();
+            $("#err3").html("Please Enter your Mobile Number.");
+            return false;
+          } else if (!/^\d{10}$/.test(contactnum)) {
+            $("#contactnum").focus();
+            $("#err3").html("Please enter a valid 10-digit phone number.");
+            return false;
+          } else {
+            $("#err3").html("");
+          }
+
+          if (subject == "") {
+            $("#subject").focus();
+            $("#err4").html("Please Enter your Subject.");
+            return false;
+          } else {
+            $("#err4").html("");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
