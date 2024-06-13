@@ -1054,7 +1054,8 @@ p {
     position: relative;
   }
   .nav-1 {
-    background: #086dbe;
+    
+    background: #dcf3fb;
     position: absolute;
     z-index: 9999999;
     width: 100%;
