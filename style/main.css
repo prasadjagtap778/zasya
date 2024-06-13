@@ -337,13 +337,13 @@ p {
   display: table-row;
 }
 .header .tbl-c-1 {
-  background: linear-gradient(to bottom, rgba(0, 123, 255, 0.8), #f9f2f200);
+  background: #dcf3fb;
   display: table-cell;
   text-align: right;
   vertical-align: middle;
   padding-right: 30px;
-  background-color: #10c5e2;
-  opacity: 0.8;
+  background-color: #dcf3fb;
+  /* opacity: 0.8; */
 }
 .header .tbl-c-1:first-child {
   text-align: left;
@@ -363,14 +363,15 @@ p {
   margin-left: 30px;
 }
 .nav-1 ul li a {
-  color: #fff;
+  color: #1f55a6;
   text-decoration: none;
   padding: 8px 14px;
   border-radius: 5px;
+  font-weight: bold;
 }
 .nav-1 ul li a:hover {
-  color: #0765b9;
-  background: #fff;
+  color: #dcf3fb;
+  background: #1d9fd9;
   border-radius: 5px;
 }
 .wad-1-f {
@@ -668,8 +669,8 @@ p {
 
 .footer .footer-row {
   /* height: 505px; */
-  background-color: #1a9bd5;
-  background: linear-gradient(to bottom, rgba(0, 123, 255, 0.8), #11cfe7);
+  background-color: #dcf3fb;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -678,9 +679,9 @@ p {
 }
 
 .footer-row .footer-col h4 {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 400;
+  color: #1f55a6;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .footer-col .links {
@@ -698,7 +699,7 @@ p {
 }
 
 .footer-col .links li a:hover {
-  color: #fff;
+  color: #1d9fd9;
 }
 
 .footer-col p {
@@ -764,7 +765,7 @@ p {
 }
 
 .footer-col .icons i:hover {
-  color: #fff;
+  color: #1d9fd9;
 }
 
 /*ABOUT US PAGE WEB*/
