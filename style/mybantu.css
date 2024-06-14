@@ -1225,6 +1225,79 @@ p {
   body {
     font-size: 13px;
   }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    margin-top: 0%;
+    border-radius: 0;
+  }
+
+  .img-bg-1 {
+    background: url(../images/bg-1.jpg);
+    background-size: cover;
+  }
+
+  #custom-background-section {
+    background: url(../images/bg-1.jpg);
+    background-size: cover;
+    /* height: 1250px !important; Set your desired height */
+    background-position: center;
+  }
+
+  .footer .footer-row {
+    margin-top: 0px;
+    padding: 10px;
+    gap: 0.8rem;
+  }
+  .footer-row .footer-col h4 {
+    color: #1f55a6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+  .footer-col form {
+    display: block;
+    width: 90px;
+    /* height: 50px; */
+  }
+
+  .footer-col form :where(input, button) {
+    width: 100%;
+    align-items: right;
+    align-content: right;
+  }
+
+  .footer-col form button {
+    margin: 0px;
+    align-items: right;
+    align-content: right;
+  }
+
+  .footer-1 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .footer-1 a {
+    color: #fff;
+  }
+  .footer-1 b {
+    padding: 0px 10px;
+  }
+
+  .footer-1 b:before {
+    content: "";
+    white-space: pre;
+  }
   :root {
     --section-spacing: 20px;
     --size-1: 30px;
