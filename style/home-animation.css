@@ -142,7 +142,7 @@
   font-weight: bold;
   font: 30px / 50px var(--heading-font-1);
   text-transform: uppercase;
-  color: #1f55a6;
+  color: #ffffff;
   animation: 1s ease 0s 1 normal both running fadeOutRight;
   margin: 0px;
   padding: 0px;
@@ -184,7 +184,7 @@
   margin: 0;
   padding: 0;
   font: 22px/47px var(--heading-font-1);
-  color: #1f55a6;
+  color: #ffffff;
   max-width: 600px;
   overflow: hidden;
   height: 45px;

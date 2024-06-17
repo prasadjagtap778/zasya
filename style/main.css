@@ -120,6 +120,27 @@ section {
   z-index: 1000;
 }
 
+.img-fill video {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; /* Optional: if you want rounded corners */
+  object-fit: cover;  /* Ensures the video covers the entire area */
+}
+
+.img-fill .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Adjust text color as needed */
+  background: rgba(0, 0, 0, 0.5); /* Optional: add a semi-transparent background */
+}
+
+
 .btn-1a {
   background-color: #007bff; /* Primary blue color */
   color: white; /* White text color */
