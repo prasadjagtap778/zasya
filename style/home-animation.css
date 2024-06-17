@@ -46,20 +46,14 @@
   background: #000;
 }
 .Modern-Slider .item .img-fill .info {
-  /* position:absolute;
-  width:100%;
-  height:100%;
-  top:0px;
-  left:0px;
-  background:rgba(0,0,0,.50);
-  line-height:100vh;
-  text-align:center;*/
+  left: 49px;
+  top: 285px;
   position: absolute;
-  /* width: 100%; */
-  height: auto;
+  width: 39%;
+  height: 266px;
   bottom: 20vh;
-  left: 10vw;
-  background: rgba(0, 0, 0, .50);
+  left: 5vw;
+  /* background: rgb(18 17 17 / 50%); */
   /* line-height: 100vh; */
   text-align: left;
 }
@@ -70,8 +64,8 @@
   display: inline-block !important;
   vertical-align: middle;
   /*background: #169dd9;*/
-  background: rgba(22, 157, 217, .30);
-  font-family: var(--heading-font-1) !important;
+  /* background: rgba(22, 157, 217, .30); */
+  /* font-family: var(--heading-font-1) !important; */
   padding: 20px;
 }
 .btn-1a {
@@ -145,21 +139,55 @@
   animation: ProgressDots 11s both;
 }
 .Modern-Slider .item h3 {
-  font: 30px/50px var(--heading-font-1);
+  font-weight: bold;
+  font: 30px / 50px var(--heading-font-1);
   text-transform: uppercase;
-  color: #FFF;
-  animation: fadeOutRight 1s both;
-  margin: 0;
-  padding: 0;
+  color: #1f55a6;
+  animation: 1s ease 0s 1 normal both running fadeOutRight;
+  margin: 0px;
+  padding: 0px;
 }
+
+.Modern-Slider .item h4 {
+  font-weight: bold;
+  font: 30px / 50px var(--heading-font-1);
+  text-transform: uppercase;
+  color: #ffffff;
+  animation: 1s ease 0s 1 normal both running fadeOutRight;
+  margin: 0px;
+  padding: 0px;
+}
+
 .Modern-Slider .item h5 {
   margin: 0;
   padding: 0;
-  font: 15px/30px var(--heading-font-1);
-  color: #FFF;
+  font: 22px/47px var(--heading-font-1);
+  color: #1f55a6;
   max-width: 600px;
   overflow: hidden;
-  height: 30px;
+  height: 45px;
+  animation: fadeOutLeft 1s both;
+}
+
+.Modern-Slider .item h6 {
+  margin: 0;
+  padding: 0;
+  font: 22px/47px var(--heading-font-1);
+  color: #ffffff;
+  max-width: 600px;
+  overflow: hidden;
+  height: 45px;
+  animation: fadeOutLeft 1s both;
+}
+
+.Modern-Slider .item h5 {
+  margin: 0;
+  padding: 0;
+  font: 22px/47px var(--heading-font-1);
+  color: #1f55a6;
+  max-width: 600px;
+  overflow: hidden;
+  height: 45px;
   animation: fadeOutLeft 1s both;
 }
 .Modern-Slider .item.slick-active h3 {
@@ -276,14 +304,37 @@
     --lineheight-1: 20px;
     --heading-font-1: 'Quicksand', sans-serif;
   }
+
+  .Modern-Slider .item h4 {
+    font-weight: bold;
+    font: 22px / 37px var(--heading-font-1);
+    text-transform: uppercase;
+    color: #ffffff;
+    animation: 1s ease 0s 1 normal both running fadeOutRight;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Modern-Slider .item h6 {
+  margin: 0;
+  padding: 0;
+  font: 16px / 20px var(--heading-font-1);
+  color: #ffffff;
+  max-width: 600px;
+  overflow: hidden;
+  height: 46px;
+  animation: fadeOutLeft 1s both;
+}
+
+
   .Modern-Slider .item h5 {
-    font: 13px/20px var(--heading-font-1);
+    font: 16px/20px var(--heading-font-1);
     height: auto;
   }
   .Modern-Slider .item h3 {
     font: 20px/20px var(--heading-font-1);
     text-transform: uppercase;
-    color: #FFF;
+    color: #1f55a6;
     animation: fadeOutRight 1s both;
     margin: 10px;
     padding: 0;
@@ -306,12 +357,13 @@
     height: auto;
     bottom: 20vh;
     left: 10vw;
-    background: rgba(0, 0, 0, .50);
+     /* background: rgba(0, 0, 0, .50); */
     /* line-height: 100vh; */
     text-align: left;
     width: 80vw;
   }
   .Modern-Slider .item.slick-active h3 {
+    line-height: normal;
     margin: 10px 0px
   }
 }
