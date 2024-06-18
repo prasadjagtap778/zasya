@@ -354,7 +354,7 @@
   .Modern-Slider .item .img-fill .info {
     position: absolute;
     /* width: 100%; */
-    height: auto;
+    height: 250px;
     bottom: 20vh;
     left: 10vw;
      /* background: rgba(0, 0, 0, .50); */

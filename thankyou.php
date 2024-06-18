@@ -20,26 +20,29 @@ include "includes/session.php";
 <body>
 <div class="scroll"><img src="images/scroll.png"></div>
 <div class="header">
-  <div class="tbl-t-1">
-    <div class="tbl-r-1">
-      <div class="tbl-c-1"><img src="images/logo.png"></div>
-      <div class="tbl-c-1">
-        <div class="mobile-menu"><img src="images/menu.png"></div>
-        <div class="nav-1">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="resourcing.html">Resourcing</a></li>
-            <li><a href="skill-enhancement.html">Skill Enhancement</a></li>
-            <li><a href="consulting.html">Consulting</a></li>
-            <li><a href="team.html">Team</a></li>
-			<li><a href="contact.html">Contact</a></li>
-          </ul>
+      <div class="tbl-t-1">
+        <div class="tbl-r-1">
+          <div class="tbl-c-1"><a href="index.html">
+            <a href="index.html">
+              <img src="images/logo.png" alt="Logo" />
+            </a>
+          </a></div>
+          <div class="tbl-c-1">
+            <div class="mobile-menu"><img src="images/menu.png" /></div>
+            <div class="nav-1">
+              <ul>
+                <li><a href="consulting.html">Consulting Services</a></li>
+                <li><a href="mybantu.html">MyBantu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="partner.html"> Partner with Us</a></li>
+                <li><a href="careers.html">Careers</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
 <section class="panel slide3 img-bg-1 inside-1" data-section-name="slide3">
   <div class="wrapper">
@@ -51,7 +54,7 @@ include "includes/session.php";
             <div class="tbl-gc-1">
 			 
               <h2 style="text-align: center;">Thank You</h2>
-              <p style="color:Green;font-size: 18px; text-align: center;">Your message has been successfully sent. We will contact you very soon!</p>
+              <p style="color:Black;font-size: 18px; text-align: center;">Your message has been successfully sent. We will contact you very soon!</p>
             
 			<?php if($_SESSION['mag'] == 'ERR'){ ?>
 			<h2 style="text-align: center; color:red;">Oops!</h2>
@@ -65,7 +68,9 @@ include "includes/session.php";
     </div>
   </div>
 
-	<div class="footer-1"><b>&copy; 2021. ZASYA.ONLINE. All Rights Reserved.</b>     |     <b>Design &amp; Concept by <a href="https://eparivartan.com/" target="_blank">eparivartan</a></b></div>
+  <div class="footer-2">
+        <b>&copy; 2024. ZASYA.ONLINE. All Rights Reserved.</b>
+  </div>
 </section>
 <script src="js/jquery-1.11.1.js"></script> 
 <script src="js/scroll.js"></script> 

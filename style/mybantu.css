@@ -217,7 +217,7 @@ table {
 
   padding-top: 16vh;
   font-family: var(--heading-font-1);
-  color: #fff;
+  color: #000000;
 }
 .home-sec-1-height {
   height: auto !important;
@@ -228,7 +228,7 @@ table {
   height: auto;
 
   font-family: var(--heading-font-1);
-  color: #fff;
+  color: #080808;
   padding: 20vh 3vw 20vh 3vw;
 }
 .home-sec-1a-height {
@@ -259,7 +259,7 @@ p{
 p {
   text-align: justify;
   line-height: normal;
-  font-size: 1.4em;
+  font-size: 1.27em;
   line-height: var(--lineheight-1);
 }
 .set-1 img {
@@ -316,7 +316,7 @@ p {
 .inside-1 p {
   text-align: justify;
   line-height: normal;
-  font-size: 1.4em;
+  font-size: 1.27em;
   margin-bottom: 14px;
 }
 .sec-1-main {
@@ -478,7 +478,7 @@ p {
 }
 
 .wad-2-c h6 {
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   line-height: var(--lineheight-2);
   font-weight: 600;
@@ -669,7 +669,7 @@ p {
 }
 
 .img-bg-1 {
-  background: url(../images/bg-1.jpg);
+  background: url(../images/backgroundmain.jpg);
   background-size: cover;
   height: 1270px;
 }
@@ -718,7 +718,7 @@ p {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 1280px;
+  max-width: 934px;
   width: 114%;
   background: #10182f;
   border-radius: 6px;
@@ -1203,12 +1203,12 @@ p {
   }
 
   .img-bg-1 {
-    background: url(../images/bg-1.jpg);
+    background: url(../images/backgroundmain.jpg);
     background-size: cover;
   }
 
   #custom-background-section {
-    background: url(../images/bg-1.jpg);
+    background: url(../images/backgroundmain.jpg);
     background-size: cover;
     /* height: 1250px !important; Set your desired height */
     background-position: center;
