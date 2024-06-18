@@ -646,7 +646,7 @@ p {
 }
 
 .location-1 {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   min-height: 40px;
   background-repeat: no-repeat;
@@ -655,17 +655,17 @@ p {
   margin: 10px 0px;
 }
 .location-2 {
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 200px;
   line-height: 30px;
   /* min-height: 40px; */
   background-repeat: no-repeat;
   background-position: left top 2px;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 30px;
   margin: 10px 0px;
 }
 .location-1 a {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   min-height: 40px;
 
@@ -934,6 +934,7 @@ p {
 }
 
 .wad-1-c2-text h6 {
+  font-weight: bold;
   margin-top: 10px;
   font-size: 1.3em;
   text-align: left;
@@ -979,6 +980,7 @@ p {
 }
 
 .wad-1-c-text h6 {
+  font-weight: bold;
   margin-top: 10px;
   text-align: left;
   font-size: 1.3em;
