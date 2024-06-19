@@ -24,7 +24,7 @@ include "includes/session.php";
         <div class="tbl-r-1">
           <div class="tbl-c-1"><a href="index.html">
             <a href="index.html">
-              <img src="images/logo.png" alt="Logo" />
+              <img src="images/Zasya Logo-new-1.png" alt="Logo" />
             </a>
           </a></div>
           <div class="tbl-c-1">
