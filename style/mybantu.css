@@ -1261,6 +1261,13 @@ p {
     padding: 0px 10px;
   }
 
+  .inside-1 p {
+    text-align: justify;
+    line-height: normal;
+    font-size: 1.1em;
+    margin-bottom: 14px;
+}
+
   .footer-1 b:before {
     content: "";
     white-space: pre;
