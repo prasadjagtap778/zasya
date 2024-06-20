@@ -8,7 +8,7 @@ include "includes/session.php";
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Zasya Online</title>
 <meta name="viewport" content="width=device-width">
-<link rel="shortcut icon" href="images/fav.png">
+<link rel="shortcut icon" href="images/fav.webp">
 <!--[if lt IE 9]>
 		<script src="script/html5shiv.min.js"></script>
 <![endif]-->
