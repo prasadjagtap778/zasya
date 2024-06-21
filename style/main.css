@@ -721,7 +721,7 @@ p {
 }
 
 .img-bg-1 {
-  background: url(../images/backgroundmain.jpg);
+  background: url(../images/backgroundmain.webp);
   background-size: cover;
   height: 1270px;
 }
@@ -1688,12 +1688,12 @@ margin-top: 60px;
   }
 
   .img-bg-1 {
-    background: url(../images/backgroundmain.jpg);
+    background: url(../images/backgroundmain.webp);
     background-size: cover;
   }
 
   #custom-background-section {
-    background: url(../images/backgroundmain.jpg);
+    background: url(../images/backgroundmain.webp);
     background-size: cover;
     /* height: 1250px !important; Set your desired height */
     background-position: center;
